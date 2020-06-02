@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Keymap 2: Numpad Layer
    * ,-----------------------------------------------------------.
-   * |TO6|DF0|TO1|DF3|TO3|   |   |   | / | * |   |   |   |       |
+   * |TO6|DF0|TO1|DF3|TO3|   |   |   | / | * |   |   |   |  Bs   |
    * |-----------------------------------------------------------|
    * |     |BB |Up |BF |   |   |   |   | 7 | 8 | 9 | -|   |      |
    * |-----------------------------------------------------------|
@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * `-----------------------------------------------------------'
    */
 [2] = LAYOUT_60_ansi(
-    TO(6),   DF(0),   TO(0),   DF(3),    TO(3),    KC_NO,   KC_NO, KC_NO,  KC_PSLS,  KC_PAST,  KC_NO,   KC_NO, KC_NO, KC_NO, \
+    TO(6),   DF(0),   TO(0),   DF(3),    TO(3),    KC_NO,   KC_NO, KC_NO,  KC_PSLS,  KC_PAST,  KC_NO,   KC_NO, KC_NO, KC_BSPC, \
     KC_TRNS, KC_WBAK, KC_UP,   KC_WFWD,  KC_NO,    KC_NO,   KC_NO, KC_P7,  KC_P8,    KC_P9,    KC_PMNS, KC_NO, KC_NO, KC_NO, \
     KC_NO,   KC_LEFT, KC_DOWN, KC_RGHT,  KC_NO,    KC_NO,   KC_NO, KC_P4,  KC_P5,    KC_P6,    KC_PPLS, KC_NO, KC_NO, \
     KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,   KC_NO, KC_P1,  KC_P2,    KC_P3,    KC_PENT,        KC_NO, \
@@ -136,7 +136,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * `-----------------------------------------------------------'
    */
 [5] = LAYOUT_60_ansi(
-    TO(6),   DF(0),   TO(0),   DF(3),     TO(3),   KC_NO,   KC_NO, KC_NO,  KC_PSLS,  KC_PAST,  KC_NO,   KC_NO, KC_NO, KC_NO, \
+    TO(6),   DF(0),   TO(0),   DF(3),     TO(3),   KC_NO,   KC_NO, KC_NO,  KC_PSLS,  KC_PAST,  KC_NO,   KC_NO, KC_NO, KC_BSPC, \
     KC_TRNS, KC_WBAK, KC_UP,   KC_WFWD,  KC_NO,    KC_NO,   KC_NO, KC_P7,  KC_P8,    KC_P9,    KC_PMNS, KC_NO, KC_NO, KC_NO, \
     KC_NO,   KC_LEFT, KC_DOWN, KC_RGHT,  KC_NO,    KC_NO,   KC_NO, KC_P4,  KC_P5,    KC_P6,    KC_PPLS, KC_NO, KC_NO, \
     KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,   KC_NO, KC_P1,  KC_P2,    KC_P3,    KC_PENT,        KC_NO, \
@@ -144,7 +144,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Keymap 6: Mouse Layer
    * ,-----------------------------------------------------------.
-   * |TO0|   |Ac0    |Ac1|Ac2|   |   |Ac0|Ac1|Ac2 |   |   |      |
+   * |TO0|   |Ac0    |Ac1|Ac2|   |   |Ac0|Ac1|Ac2 |   |   |  Bs  |
    * |-----------------------------------------------------------|
    * |     |   |MB1|MUp|MB2|   |   |MB1|MUp|MB2|   |  |   |      |
    * |-----------------------------------------------------------|
